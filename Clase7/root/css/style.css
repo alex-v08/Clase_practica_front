@@ -1,21 +1,23 @@
-h1 {
-    background-color: #ff0000;
-    color:#ffffff;
-
-    font-size: 90px;
-
-}
-
-p{
-    font-size: 20px;
-}
-
 .imagentop{
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    background-color: #ffffff;
-    margin: 0 auto;
-    margin-top: -50px;
-   align-
+    width:100px;
+    height:100px;
+    background-color: #E6E6E6;
 }
+
+.fondo{
+    background-color: #C4C4C4;
+    font-family:'Times New Roman', Times, serif, sans-serif;
+    color: #005677;
+
+
+    
+}
+
+h1.texto{
+    font: size 35px; 
+}
+
+h2.texto{
+   font-size: 59px;
+}
+
