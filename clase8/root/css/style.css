@@ -4,6 +4,12 @@ header{
     color: antiquewhite;
 }
 
+.fondo{
+    background-color: #6b6579;
+    font-family:'Times New Roman', Times, serif, sans-serif;
+    color: #005677;
+    text-align: center;
+}
 #nombre{
     font-size: 52px;
     font-family: "Times New Roman", Times, serif;
