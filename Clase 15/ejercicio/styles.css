@@ -10,10 +10,6 @@ body {
     font-size: 10px;
 }
 
-.boton-container button {
-    padding: 1rem 2rem;
-}
-
 .top-header {
     background-color: #D1891C;
     color: #333333;
@@ -25,22 +21,18 @@ body {
     background-color: #00669F;
     color: #FFFFFF;
     font-size: 2rem;
-    padding: 2rem;768
+    padding: 2rem;
 }
 
 .main-container {
     display: flex;
     background-color: #E5E5E5;
-    padding: 0rem;
-    justify-content: space-around;  /* Alinear los elementos en el eje X */
-    /* ACÁ puedo usar USAR UNA PROP FLEX PARA ELRESPONSIVE */
-    
+    justify-content: space-around;
+    /* ACÁ PODES USAR UNA PROP FLEX PARA ELRESPONSIVE */
 }
 
 .hero-container {
     margin-top: 5vh;
-    margin-left: 1vh;
-    margin-right: 1vh;
     width: 25vw;
     background-color: #F3F3F3;
     border-radius: 15px;
@@ -48,27 +40,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    padding: 1rem;
-    border: 3rem;
-}
-
-.hero-container:hover{
-
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    position: relative;
-    width: 100%;
-    
-
-    /*
-    box-sizing: border-box;
-    width: 100%;
-   border: solid #5B6DCD 10px;
-   padding: 5px;
-    font-size: 1.5rem;
-    padding: 2rem;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;*/
 }
 
 .portada {
@@ -81,27 +52,11 @@ body {
     height: 30vh;
     border-radius: 15px 15px 0 0;
     position: relative;
-    padding: 1rem;
 }
 
 .bat {
-    background-image: url('../img/portada-batman.png');
-    background-position: center;
+    background-image: url(/img/portada-batman.png);
 }
-
-
-.harley {
-
-    background-image: url('../img/portada-Harley.png');
-}
-.superman {
-    background-image: url('../img/portada-superman.png');
-}
-
-.wwoman {
-    background-image: url('../img/portada-wwoman.png');
-}
-
 
 .fas {
     color: red;
@@ -118,7 +73,7 @@ body {
 
 .title-container {
     display: flex;
-    justify-content: center;768
+    justify-content: center;
     margin-top: 6rem;
     color: #000000;
     font-size: 2.5rem;
@@ -150,31 +105,3 @@ body {
 
 
 /* MEDIA QUERIES :D */
-
-@media (max-width: 800px) {
-
-    .main-container {
-        flex-direction: column;
-        align-items: center;
-    
-
-    }
-    .hero-container {
-        margin-top: 5vh;
-        width: 80%;
-        justify-items: center;
-        margin-right: 0vw;
-        margin-left: 0vw;
-}
-.top-header {
-    display : flex;
-    justify-content: center;
-}
-.bottom-header {
-    display: flex;
-    justify-content: center;
-}
-}
-
-
-
