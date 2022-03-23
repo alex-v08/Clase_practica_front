@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    font-size: 10px;
+}
+
+.top-header {
+    background-color:#1CD1B0;
+    color: #333333;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+.bottom-header {
+    background-color: #00669F;
+    color: #FFFFFF;
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+.nav-header {
+    position:absolute;
+    text-decoration: none;
+    background-color: #00669F;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    padding: 2rem;
+    display: flex-inline;
+    justify-content: space-around;
+    padding: 5rem;
+    border: 3px solid #00669F;
+   
+}
