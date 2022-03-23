@@ -50,13 +50,24 @@ body {
     justify-content: flex-end;
     padding: 1rem;
     border: 3rem;
+   
+}
+
+button:hover{
+    
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+
 }
 
 .hero-container:hover{
 
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     position: relative;
-    width: 100%;
+    z-index: 4;
+  
+
+    
+
     
 
     /*
