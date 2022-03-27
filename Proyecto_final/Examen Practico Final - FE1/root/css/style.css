@@ -1,0 +1,108 @@
+/*Estilizar contenido de la página*/
+header {
+ display: flex;
+ justify-content: space-between;
+    align-items: center;
+
+}
+
+html {
+  font-family: sans-serif;
+  width: 1440px;
+  height: auto;
+  font-family: 'Be Vietnam';
+font-style: normal;
+}
+
+.fila {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 65px 165px;
+  
+  position: absolute;
+  width: 1439.54px;
+  height: 174px;
+  left: 0px;
+  top: 0px;
+
+}
+
+.button {
+  /* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 25px;
+
+position: static;
+width: 69px;
+height: 43px;
+right: 484px;
+top: 0px;
+
+background: #F3603B;
+border-radius: 30px;
+text-decoration: none;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 23px;
+}
+
+.boton {
+  /* Auto layout */
+
+  /* Get Started */
+
+position: static;
+width: 73px;
+height: 19px;
+left: 30.5px;
+top: 12.5px;
+
+font-family: 'Be Vietnam';
+font-style: normal;
+font-weight: 500;
+font-size: 13.1806px;
+line-height: 19px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 10px;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+
+position: static;
+width: 134px;
+height: 44px;
+left: 1140.54px;
+top: 65px;
+
+background: #F3603B;
+box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+border-radius: 50px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 0px 224px;
+
+}
