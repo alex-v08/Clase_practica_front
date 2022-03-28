@@ -1,34 +1,65 @@
+*{font-size: 16px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Be Vietnam Pro', sans-serif;
+  }
+
+
 /*Estilizar contenido de la página*/
-header {
- display: flex;
- justify-content: space-between;
-    align-items: center;
+.headerPositionStyle {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10%;
+
+  }
+
+  /*Estilizar el html*/
+body {
+    
+  /*Estilizar el Html fondo superior*/
+    background-image: url('../img/bg-tablet-pattern.svg');
+    background-position-x: 130%;
+    background-position-y: -35%;
+    background-repeat: no-repeat;
+  
+  }
+
+
+.navHeader {
+
+display:flex;
+justify-content: space-around;
+align-items: center;
 
 }
-
-html {
-  font-family: sans-serif;
-  width: 1440px;
-  height: auto;
-  font-family: 'Be Vietnam';
-font-style: normal;
+.mainmidSup{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10%;
 }
 
-.fila {
+ul a{
+  text-decoration: none;
+  padding: 1.3rem;
+  color: #242E52;
+  list-style: none;
+}
+
+.mainCustom{
+  display: flex;
+ flex-direction: column;
+  align-items: center;
+  
+}
+.mainTop{
   display: flex;
   flex-direction: row;
-  justify-content: center;
   align-items: center;
-  padding: 65px 165px;
   
-  position: absolute;
-  width: 1439.54px;
-  height: 174px;
-  left: 0px;
-  top: 0px;
-
-}
-
+ }
 .button {
   /* Auto layout */
 display: flex;
@@ -60,15 +91,10 @@ margin: 0px 23px;
   /* Get Started */
 
 position: static;
-width: 73px;
-height: 19px;
-left: 30.5px;
-top: 12.5px;
-
 font-family: 'Be Vietnam';
 font-style: normal;
 font-weight: 500;
-font-size: 13.1806px;
+
 line-height: 19px;
 display: flex;
 align-items: center;
@@ -103,6 +129,6 @@ border-radius: 50px;
 flex: none;
 order: 2;
 flex-grow: 0;
-margin: 0px 224px;
+margin: 0px 224px; 
 
 }
