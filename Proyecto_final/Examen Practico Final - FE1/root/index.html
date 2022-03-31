@@ -3,11 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&family=Monoton&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&family=Monoton&display=swap" rel="stylesheet"> 
+    
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trabajo Final</title>
@@ -15,15 +14,15 @@
 <body>
     
     <!--crear HEADER con 3 section -->
-    <header class = "headerPositionStyle">
+    <header class = "header-position ">
         <section class="logo">
             <img src="./img/logo.svg" alt="logo">
         </section>
         <!---crear un nav para el header -->
         <section >
             <ul class="navHeader" type="none">
-                <li><a href="#pricing">Princing</a></li>
-                <li><a href="#product">Product</a></li>
+                <li><a href="#pricing"> Princing <a></li>
+                <li><a href="#product"> Product </a></li>
                 <li><a href="#aboutUs">About Us</a></li>
                 <li><a href="#careers">Careers</a></li>
                 <li><a href="#communitiy">Communitiy</a></li>
@@ -35,69 +34,76 @@
         </section>
     </header>
     <!--crear MAIN-->
-    <main class="mainCustom">
+    <main class="main-position">
 
 
         <section class="mainTop">
-            <div class="posLeft">
-                <h1 class = "h1h2Format">
+            <div class="main-top-left">
+                <h1 class = "h1Style">
                     Bring everyone 
                     together to build 
                     better products.
                 </h1>
-                <p class="pMain">Manage makes it simple for software teams to plan day-to-day tasks while keeping the large team goals in view</p>
+                <p class="p-main">Manage makes it simple for software teams to plan day-to-day tasks while keeping the large team goals in view</p>
 
-            <!--crear boton header-->
+           
             <div class="buttonMain">
                 <button class="button">Get Started</button>
             </div>   
             </div>
 
 
-            <aside >
+            <aside class="main-top-right" >
                 <img src="../root/img/illustration-intro.svg" alt="Ilustration" class = "ilustration">
             </aside>
         </section>
-        <section class="mainmidSup">
-            <section class="posLeft" >
+        <section class="main-mid">
+            <section class="main-mid-left" >
                 <h2>What´s different about Manage?</h2>
-                <p>Manage provides all the functionality your teas needs, without the complexity. Our software is tailor-made for modern digital product teams</p>
+                <p class = "p-main">Manage provides all the functionality your teas needs, without the complexity. Our software is tailor-made for modern digital product teams</p>
             </section>             
-            <aside>
-                <section>
+            <aside >
+                <section class="section-aside-position">
                     <!-- Button para Numero1 -->
-                        <button class="button"> 01</button>
-                        
+                        <button class="button number"> 01</button>
+                        <div class = "mover-down">
                         <h5>Track company-wide progress</h5>
                         <p>See how your day-to-day tasks fit into the wider vision. Go from tracking progress at the milestone level all the way done to the smallest of details. Never lose sight of the bigger picture again.</p>
-
+                    </div>
                 </section>
-                <section>
+                <section class="section-aside-position">
                     <!-- Button para Numero2 -->
                     <button class="button">02</button>  
-                    <h5>Advance built-in reports</h5>
-                    <p>Set internal delivery estimates and track progress toward company goals. Our customisable dashboard helps you build out the reports you need to keep key stakeholders informed.</p>
-                   
+                    <div>
+                        <h5>Advance built-in reports</h5>
+                        <p>Set internal delivery estimates and track progress toward company goals. Our customisable dashboard helps you build out the reports you need to keep key stakeholders informed.</p>
+                    </div>
                 </section>
-                <section>
+                <section class="section-aside-position">
                     <!-- Button para Numero3 -->
                     <button class="button">03</button>
+                    <div>
                         <h5>Everything you need in one place</h5>
                         <p>Stop jumping from one service to another to communicate, store files, track tasks and share documents. Manage offers an all-in-one team productivity solution.</p>
+                    </div>
                 </section>
             </aside>
             
-<!--Profile Anisha CARD-->
         </section>
-        <article class="mainmidbuton">
 
-            <section class="user-container">
+        <section class = "container-cards">
+            <div>
+                <!--Profile Anisha CARD-->
+                <h2> What They've said</h2>
+            </div>
+    <section class = "cards">
+        <section class="user-container">
 
                 <div class="">
                     <img src="../root/img/avatar-anisha.png" alt=" " class="profile ">
                 </div>
 
-                <div class="title-container ">row
+                <div class="title-container ">
                     <h5>Anisha Li</h5>
                 </div>
 
@@ -150,30 +156,31 @@
     </div>
 </section>
     
-        </article>
+        </section>
 
-                  <!--crear boton header-->
-                  <button class="button">Get Started</button>
+            <!--crear boton header-->
+            <button class="button">Get Started</button>
 
+</main>
 
-        
-
-    
-    </main>
-    <section class="mainmidInf">
+    <section class="main-inferior main-inferior-style">
 
         <h2 class = "h2Section4">Simplify how your team words today.</h2>
-        <button class="boton button">Get Started</button>
+        <button class="b_botton button">Get Started</button>
 
     </section>
 
-    <footer class="footer-container">
+    <!--CREAR FOOTER-->
+
+    <footer class="footer-container footer-container-style">
             <section class="footerS1">
                 <div>
                     <img src ="img/logo.svg" alt="logo">
                 </div>
                 <div class="icons">
-                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                    <i class="fa-brands fa-facebook-square"></i>
+
+
                         <i class="fa fa-youtube" aria-hidden="true"></i>
                         <i class="fa fa-twitter" aria-hidden="true"></i>
                         <i class="fa fa-Pinterest" aria-hidden="true"></i>
@@ -203,9 +210,9 @@
 
             <section class = "footer4">
 
-                <form action="" method="get">
+                <form action="" method="get" class ="form-format">
                     <input type="email" placeholder="Enter your email">
-                    <button class="button">Subscribe</button>
+                    <button class="button">Go</button>
                 </form>
 
 
