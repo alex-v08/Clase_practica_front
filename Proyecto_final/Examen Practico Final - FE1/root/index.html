@@ -9,9 +9,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
-  
-    <!-- ICONS -->
     <script src="https://kit.fontawesome.com/81b193b5d2.js" crossorigin="anonymous"></script>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,13 +17,18 @@
 <body>
     
     <!--crear HEADER con 3 section -->
-    <header class = "header-position ">
+    <header class = "header-position">
+        <div class="position-header-top">
         <section class="logo">
             <img src="./img/logo.svg" alt="logo">
         </section>
+        <section class="hamburguer">
+            <img src="./img/icon-hamburger.svg" alt="hamburguer">
+        </section>
+        </div>
         <!---crear un nav para el header -->
         <section >
-            <ul class="navHeader" type="none">
+            <ul class="navHeader off" type="none">
                 <li><a href="#pricing"> Princing <a></li>
                 <li><a href="#product"> Product </a></li>
                 <li><a href="#aboutUs">About Us</a></li>
@@ -36,7 +38,7 @@
         </section>
         <!--crear boton header-->
         <section>
-            <button class="button">Get Started</button>
+            <button class="button off">Get Started</button>
         </section>
     </header>
     <!--crear MAIN-->
@@ -53,22 +55,24 @@
                 <p class="p-main">Manage makes it simple for software teams to plan day-to-day tasks while keeping the large team goals in view</p>
 
            
+
             <div class="buttonMain">
                 <button class="button">Get Started</button>
             </div>   
             </div>
 
 
-            <aside class="main-top-right" >
+            <aside  >
                 <img src="../root/img/illustration-intro.svg" alt="Ilustration" class = "ilustration">
             </aside>
         </section>
-        <section class="main-mid">
+         <section class="main-mid" >
             <section class="main-mid-left" >
                 <h2>What´s different about Manage?</h2>
                 <p class = "p-main">Manage provides all the functionality your teas needs, without the complexity. Our software is tailor-made for modern digital product teams</p>
-            </section>             
-            <aside >
+            </section>
+          
+            <aside>
                 <section class="section-aside-position">
                     <!-- Button para Numero1 -->
                         <button class="button number"> 01</button>
@@ -94,26 +98,31 @@
                     </div>
                 </section>
             </aside>
-            
+        </section>   
         </section>
 
         <section class = "container-cards">
-            <div>
-                <!--Profile Anisha CARD-->
-                <h2> What They've said</h2>
-            </div>
+            
+            
+                <h2 id="h2_position_cards"> What They've said</h2>
+                
+            
+                
+                
+           
+           <!--Profile Anisha CARD-->
     <section class = "cards">
-        <section class="user-container">
+        <section class="user-container off">
 
                 <div class="">
-                    <img src="../root/img/avatar-anisha.png" alt=" " class="profile ">
+                    <img src="../root/img/avatar-anisha.png" alt=" " class="facecard">
                 </div>
 
                 <div class="title-container ">
                     <h5>Anisha Li</h5>
                 </div>
 
-                <div class="">
+                <div class="parrafo-cards">
 
                     <p>
                         “Manage has supercharged our team´s workflow. 
@@ -125,12 +134,12 @@
             
             <section class="user-container">
 
-                <div class="">
-                    <img src="../root/img/avatar-ali.png" alt=" " class="profile">
+                <div class="pi">
+                    <img src="../root/img/avatar-ali.png" alt=" " class="facecard">
                 </div>
 
-                <div class="title-container ">
-                    <h5>Ali Bravo</h5>
+                <div >
+                    <h5 class="title-container ">Ali Bravo</h5>
                 </div>
 
                 <div class="">
@@ -142,10 +151,10 @@
                 </div>
             </section>
 <!--Profile Richard CARD-->
-    <section class="user-container">
+    <section class="user-container off">
 
        <div class="">
-            <img src="../root/img/avatar-richard.png" alt=" " class="profile">
+            <img src="../root/img/avatar-richard.png" alt=" " class="facecard">
         </div>
 
         <div class="title-container ">
@@ -164,8 +173,9 @@
     
         </section>
 
-            <!--crear boton header-->
-            <button class="button">Get Started</button>
+            <!--crear boton -->
+            <button class="button button-space">Get Started</button>
+        </section>
 
 </main>
 
@@ -181,9 +191,10 @@
     <footer class="footer-container footer-container-style">
             <section class="footerS1">
                 <div>
-                    <img src ="img/logo.svg" alt="logo">
+                    <img src ="img/logo.svg" alt="logo" class="logo-footer">
                 </div>
-                <div class="icons">
+                <!--social media fonts-->
+        <div class="icons">
                     <i class="fa-brands fa-lg fa-facebook-square iconmodif iconmodiffb"></i>
                     <i class="fa-brands fa-lg fa-youtube iconmodif iconmodifyt"></i>
                     <i class="fa-brands fa-lg fa-twitter iconmodif iconmodiftw"></i>
@@ -191,8 +202,9 @@
                     <i class="fa-brands fa-lg fa-instagram iconmodif iconmodifig"></i>
                 </div>
             </section>             
-
-                <section class="footerS2" >
+        
+    <div class = "footer-mobile">
+        <section class="footerS2" >
                     <ul type="none" class = "botton">
                         <li><a href="#Home">Home</a></li>
                         <li><a href="#pricing">Princing</a></li>
@@ -201,26 +213,32 @@
                     </ul>
 
                 </section>
-           
+    
 
-            <section class="footers3" >
+        <section class="footers3" >
                 <ul type="none" class = "botton" >
                     <li><a href="#careers">Careers</a></li>
                     <li><a href="#communitiy">Communitiy</a></li>
                     <li><a href="#privacyPolicy">Privacy Policy</a></li>
                 </ul>
+    </div>  
                 
             </section>
 
             <section class = "footer4">
 
-                <form action="" method="get" class ="form-format">
-                    <input type="email" placeholder="Enter your email">
+                <form action="email" method="post" class ="form-format">
+                    <input type="email" name="email" placeholder="Update in your inbox...">
                     <button class="button">Go</button>
                 </form>
 
+            
+            
+            <div class ="orden-parrafo">
 
-                <p>© 2020 Manage. All rights reserved.</p>
+
+                <p class ="orden-parrafo">© 2020 Manage. All rights reserved.</p>
+            </div>
             </section>
     
 
